@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    list-style: none;
+}
+.header{
+    background-color: blue;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    position: fixed;
+}
+.logo{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-right: 350px;
+    margin-bottom: 10px;
+}
+.menu ul{
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu ul li{
+    margin: 30px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu ul li a:hover{
+    color: rgb(128, 158, 212);
+    font-style: italic;
+    cursor: grab;
+}
+.banner{
+    background-color: rgb(87, 87, 206);
+    height: 600px;
+    color: white;
+    text-align: center;
+}
+.banner img{
+    border-radius: 100px;
+    height: 180px;
+    border: solid 0px white;
+    margin-top: 100px;
+}
+.banner button{
+    margin-top: 60px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 50px;
+    border: none;
+}
+.banner button:hover{
+    background-color: brown;
+    border:  solid 1px white;
+    cursor: pointer;
+}
+h1 span:before{
+    content: '';
+    animation:  gerak infinite 8s ease;
+    transform: translateY(-50%);
+    color: lightblue;
+    font-size: 50px;
+}
+@keyframes gerak{
+    0%{
+        content: 'Selamat datang';
+    }
+    50%{
+        content: 'Saya Nurul aini';
+    }
+    75%{
+        content: 'salam kenal teman teman';
+    }
+    100%{
+        content: 'Terima kasih sudah mau berkenalan';
+    }
+}
+.box-pendidikan{
+    text-align: center;
+    color: black;
+    margin-top: 90px;
+    padding-top: 70px; 
+}
+.box-kiri, .box-tengah, .box-kanan{
+    width: 280px;
+    height: 300px;
+    margin:70px 20px 20px 55px;
+    background-color: rgb(115, 156, 156);
+    border-radius: 10px;
+    padding: 10px;
+}
+.bungkus{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.bungkus h3,p{
+    margin: 10px 0px 13px;
+    padding: 0px 20px;
+}
+.box-kiri:hover,.box-tengah:hover,.box-kanan:hover{
+    background-color: skyblue;
+    cursor: pointer;
+}
+.softskill{
+    text-align: center;
+    align-items: center;
+    margin-top: 90px;
+    padding-top: 70px;
+}
+.kontak{
+    text-align: center;
+    margin-top: 200px;
+}
+.kontak img{
+    margin-bottom: 30px;
+    width: 100px;
+    margin-top: 50px;
+}
+.footer{
+    background-color: gray;
+    color: white;
+    width: 100%;
+    height: 40px;
+    padding: 3px;
+    margin: 80px auto 0px;
+}
+.footer p{
+    text-align: center;
+
+}
+
